@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/jul/2018, 11:29:25
+    Author     : julian
+*/
+
+/*Agrupando os itens*/
+#menu ul {
+    padding:10px;   /*Tamanho vertical da barra do menu */
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+
+/*Deixando todos os itens na horizontal!!*/
+#menu ul li { 
+    display: inline; 
+}
+
+#menu ul li a {
+    padding: 2px 50px;    /*Distancia entre os itens  */
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #000000;       /*Cor dos links - letras */
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+    background-color:#483D8B;   /*Cor do fundo com mouse sobre ele */
+    color: #FFFFFF;        /*Cor do link com o mouse sobre ele */
+    border-bottom:2px solid #EA0000;  /*Cor da barra embaixo do link  */
+}
