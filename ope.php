@@ -6,7 +6,7 @@ $login = $_POST['login'];
 $senha = $_POST['senha'];
 
 // as próximas 3 linhas são responsáveis em se conectar com o bando de dados.
-$con = mysqli_connect("localhost", "root", "root", "sistema") or die ("Sem conexão com o servidor");
+$con = mysqli_connect("localhost", "root", "root", "bdexemplo") or die ("Sem conexão com o servidor");
  
 $sql = "SELECT * FROM `cliente` WHERE `email` = '$login' AND `senha1`= '$senha'";
 $result = mysqli_query($con,$sql);
